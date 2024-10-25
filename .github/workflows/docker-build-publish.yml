@@ -1,17 +1,17 @@
 name: 🐳 Build + Publish Multi-Platform Image
 
-on:
-  workflow_dispatch:
-  push:
-    branches: ['master']
-    tags: ['*.*']
-    paths:
-      - '**.js'
-      - 'src/**'
-      - 'public/**'
-      - 'services/**'
-      - '.github/workflows/docker-build-publish.yml'
-      - 'Dockerfile'
+# on:
+#   workflow_dispatch:
+#   push:
+#     branches: ['master']
+#     tags: ['*.*']
+#     paths:
+#       - '**.js'
+#       - 'src/**'
+#       - 'public/**'
+#       - 'services/**'
+#       - '.github/workflows/docker-build-publish.yml'
+#       - 'Dockerfile'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
