@@ -190,7 +190,7 @@ module.exports = {
     defaultDelay: { show: 380, hide: 0 },
     // delay: { show: 380, hide: 0 },
   },
-  /* Server location of the Backup & Sync cloud function   https://sync-service.dashy.to*/
+  /* Server location of the Backup & Sync cloud function   https://sync-service.dashy.to */
   backupEndpoint: 'https://startview.4040940.xyz',
   /* Available services for fetching favicon icon for user apps */
   faviconApiEndpoints: {
