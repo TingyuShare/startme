@@ -1,9 +1,5 @@
 # Detect and label pull requests that have merge conflicts
 name: 🏗️ Check Merge Conflicts
-on:
-  push:
-    branches:
-    - master
 jobs:
   check-conflicts:
     runs-on: ubuntu-latest
