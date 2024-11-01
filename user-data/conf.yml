@@ -1,5 +1,4 @@
 appConfig:
-  title: "Hi Tingyu"
   theme: glass
   auth:
     users:
@@ -49,3 +48,5 @@ appConfig:
   disableSmartSort: false
   enableErrorReporting: false
   backgroundImg: ' https://picsum.photos/1920/1080/?random'
+pageInfo:
+  title: "Hi Tingyu"
